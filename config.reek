@@ -1,0 +1,17 @@
+IrresponsibleModule:
+  enable: false
+"app/controllers":
+  NestedIterators:
+    max_allowed_nesting: 2
+  UnusedPrivateMethod:
+    enable: false
+  InstanceVariableAssumption:
+    enabled: false
+  UncommunicativeModuleName:
+    enable: false
+  "app/helpers":
+    UtilityFunction:
+      enabled: false
+  "app/mailers":
+    InstanceVariableAssumption:
+      enabled: false
