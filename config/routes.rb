@@ -5,6 +5,9 @@ Rails.application.routes.draw do
       resources :authors do
         resources :books
       end
+      resources :auths, only: %i[create]
     end
   end
+
+
 end
